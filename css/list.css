@@ -1,0 +1,107 @@
+/*整个容器*/
+.list_container {
+  width: 100%;
+}
+.list_container .list_header {
+  width: 100%;
+  height: 45px;
+  background: url(../images/header-bg.png) center repeat-x;
+  position: fixed;
+  top: 0;
+  z-index: 99;
+  padding-left: 40px;
+  padding-right: 50px;
+}
+.list_container .list_header a:nth-child(1) {
+  font-size: 35px;
+  color: grey;
+  line-height: 45px;
+  position: absolute;
+  left: 7px;
+}
+.list_container .list_header input {
+  width: 100%;
+  height: 31px;
+  margin-top: 9px;
+  border-radius: 5px;
+  border: 1px solid #eee;
+}
+.list_container .list_header a:nth-child(3) {
+  width: 40px;
+  height: 44px;
+  background: url('../images/sprites.png') no-repeat -60px 0;
+  background-size: 200px 200px;
+  position: absolute;
+  right: 10px;
+  top: 0;
+  padding: 15px 10px 8px 10px;
+  background-origin: content-box;
+  background-clip: content-box;
+}
+.list_container .list_main {
+  width: 100%;
+  position: absolute;
+  top: 45px;
+}
+.list_container .list_main .main_left {
+  width: 90px;
+}
+.list_container .list_main .main_left ul {
+  width: 100%;
+}
+.list_container .list_main .main_left ul li {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-right: 1px solid grey;
+  border-bottom: 1px solid grey;
+}
+.list_container .list_main .main_left ul li a {
+  width: 100%;
+  color: #000;
+  display: block;
+}
+.list_container .list_main .main_left ul li.current {
+  border-right: none;
+}
+.list_container .list_main .main_left ul li.current a {
+  color: #c91523;
+}
+.list_container .list_main .mian_right {
+  overflow: auto;
+  padding: 10px 10px 0;
+}
+.list_container .list_main .mian_right a {
+  width: 100%;
+  display: block;
+}
+.list_container .list_main .mian_right a img {
+  width: 100%;
+  display: block;
+}
+.list_container .list_main .mian_right h3 {
+  margin-top: 10px;
+  font-size: 12px;
+}
+.list_container .list_main .mian_right ul {
+  width: 100%;
+  padding-top: 10px;
+}
+.list_container .list_main .mian_right ul li {
+  float: left;
+  width: 33.33333%;
+}
+.list_container .list_main .mian_right ul li a {
+  display: block;
+  width: 100%;
+}
+.list_container .list_main .mian_right ul li a img {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+}
+.list_container .list_main .mian_right ul li a p {
+  padding: 4px 0;
+  color: #000;
+}

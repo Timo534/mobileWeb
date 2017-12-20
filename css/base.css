@@ -1,0 +1,47 @@
+/*
+* @Author: thinkpad
+* @Date:   2017-08-22 11:53:50
+* @Last Modified by:   thinkpad
+* @Last Modified time: 2017-08-23 20:19:13
+*/
+*,::before,::after {
+	margin: 0;
+	padding: 0;
+	-webkit-tap-highlight-color: transparent;
+	-webkit-box-g: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-size: 14px;
+	font-family: 'microsoft yahei',sans-serif;
+}
+input {
+	border: 0;
+	-webkit-appearance: transparent;
+}
+a {
+	text-decoration: none;
+}
+ol,ul {
+	list-style: none;
+}
+.f_l {
+	float: left;
+}
+.f_r {
+	float: right;
+}
+.clearfix::before,
+.clearfix::after {
+	content: '';
+	display: block;
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+	clear: both;
+}
+.b_r {
+	border-right: 1px solid #ccc;
+}
+.b_b {
+	border-bottom: 1px solid #ccc;
+}
